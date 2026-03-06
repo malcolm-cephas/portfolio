@@ -267,6 +267,44 @@ h2::after {
     transform: translateY(-5px);
 }
 
+/* Experience & Certifications */
+.experience-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+
+.cert-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 1.5rem;
+}
+
+.cert-item {
+    background: var(--card-bg);
+    border: 1px solid var(--border-color);
+    padding: 1.5rem;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    transition: var(--transition);
+}
+
+.cert-item:hover {
+    border-color: var(--primary-color);
+    background: rgba(255, 255, 255, 0.05);
+}
+
+.cert-item img {
+    width: fit-content;
+}
+
+.cert-item span {
+    color: var(--text-secondary);
+    font-size: 0.85rem;
+}
+
 .tags {
     display: flex;
     gap: 0.5rem;
