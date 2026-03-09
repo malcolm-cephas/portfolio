@@ -198,6 +198,9 @@ h2::after {
     transition: var(--transition);
     position: relative;
     overflow: hidden;
+    text-decoration: none;
+    color: inherit;
+    display: block;
 }
 
 .project-card:hover {
@@ -289,6 +292,8 @@ h2::after {
     flex-direction: column;
     gap: 1rem;
     transition: var(--transition);
+    text-decoration: none;
+    color: inherit;
 }
 
 .cert-item:hover {
